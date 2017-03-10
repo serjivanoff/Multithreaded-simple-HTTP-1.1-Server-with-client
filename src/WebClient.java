@@ -65,7 +65,6 @@ public class WebClient {
         String hostName=socket.getInetAddress().getHostName();
         System.out.println("Server HostName: "+
           ("127.0.0.1".equals(hostName)?"localhost":hostName));
-
 //        0.0.0.0 and 0:0:0:0:0:0:0:0 for IPv4 and IPv6 accordingly
         System.out.println("Socket family: "+
          (host.split("\\.").length==4?StandardProtocolFamily.INET:StandardProtocolFamily.INET6));

@@ -9,7 +9,6 @@ public final class WebServer {
         public static void main(String[] args) throws Exception{
             // Set the port number.
             int port = Integer.parseInt(args[0]);
-
             // Establish the listen socket.
             ServerSocket serverSocket=new ServerSocket(port);
 
